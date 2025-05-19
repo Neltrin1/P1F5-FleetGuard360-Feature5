@@ -12,7 +12,7 @@ export default function Home() {
           FLOTAS INACTIVAS
         </Link>
         <Link href="/hu03" className="text-blue-600 hover:underline text-lg">
-          DESCRIPCIÓN FLOTA INDIVIDUAL
+          FLOTA INDIVIDUAL
         </Link>
       </nav>
     </div>
