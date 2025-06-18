@@ -6,7 +6,7 @@ const DetalleVehiculo = () => {
       {/* Botón volver */}
       <div className="absolute top-10 left-8 z-20">
         <button
-          onClick={() => (window.location.href = 'index.tsx')}
+          onClick={() => (window.location.href = '/hu01')}
           className="text-gray-700 hover:text-black bg-transparent"
         >
           <svg
