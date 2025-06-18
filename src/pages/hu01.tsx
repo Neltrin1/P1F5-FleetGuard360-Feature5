@@ -15,7 +15,7 @@ const FleetInfo: React.FC = () => {
   const [reports, setReports] = useState<FleetReport[]>([]);
 
   useEffect(() => {
-    axios.get("/api/reports", {
+    axios.get<FleetReport[]>("/api/reports", {
       headers: {
         Authorization: `Bearer ${localStorage.getItem("token")}`,
       },
